@@ -1,0 +1,11 @@
+summary: "Get all todos"
+description: "Yo yo dette er en beskrivelse"
+methodResponses:
+  -
+    statusCode: "200"
+    responseModels:
+      "application/json": "todoList"
+  -
+    statusCode: "400"
+    responseModels:
+      "application/json": "awsError"

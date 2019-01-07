@@ -1,0 +1,13 @@
+summary: "Create something"
+description: "Yo yo dette er en beskrivelse"
+requestBody:
+  description: "{ YOYOYOYO }"
+requestModels:
+  "application/json": "todoCreateRequest"
+methodResponses:
+  -
+    statusCode: "200"
+  -
+    statusCode: "400"
+    responseModels:
+      "application/json": "awsError"

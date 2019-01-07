@@ -1,0 +1,13 @@
+summary: "Delete specified todo"
+description: "Yo yo dette er en beskrivelse"
+pathParams:
+  -
+    name: "id"
+    description: "ID for requested resource"
+methodResponses:
+  -
+    statusCode: "200"
+  -
+    statusCode: "400"
+    responseModels:
+      "application/json": "awsError"

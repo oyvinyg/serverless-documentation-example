@@ -1,0 +1,17 @@
+summary: "Update specified todo"
+description: "Yo yo dette er en beskrivelse"
+pathParams:
+  -
+    name: "id"
+    description: "ID for requested resource"
+requestModels:
+  "application/json": "todoUpdateRequest"
+methodResponses:
+  -
+    statusCode: "200"
+    responseModels:
+      "application/json": "todo"
+  -
+    statusCode: "400"
+    responseModels:
+      "application/json": "awsError"
