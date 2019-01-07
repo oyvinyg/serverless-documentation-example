@@ -4,6 +4,6 @@ description: An example API provided by the Serverless framework to use an examp
 layout: Doc
 -->
 # Documenting Your Serverless REST API With Swagger (OpenAPI) Specification
-This code is the starting point for the how-to found on the Dropsource Blog: https://www.dropsource.com/blog/serverless-rest-api/
+This code is an extension of the starting point for the how-to found on the Dropsource Blog: https://www.dropsource.com/blog/serverless-rest-api/
 
 
